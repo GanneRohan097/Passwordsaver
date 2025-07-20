@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main" id="main">
+    <div class="Header">
+      <div class="title">
+        <h2 class="title">🔒Welcome to Password Manager</h2>
+      </div>
+      <div class="passdiv">
+        <input type="password" placeholder="Create a password to protect your passwords" class="passinput" id="passinput" />
+      </div>
+      <div class="savepassword">
+        <button class="passbutton" onclick="createMainPassword()">Save Password</button>
+        <button class="passbutton" onclick="reset()">Reset password</button>
+      </div>
+    </div>
+    <div class="addpass" id="addpass">
+      <h2 class="title">+Add new Password</h2>
+      <div class="addinput">
+        <input type="text" class="newinput" id="web" placeholder="Website name" />
+      </div>
+      <div class="addinput">
+        <input type="text" class="newinput" id="username" placeholder="Username/Email" />
+      </div>
+      <div class="addinput">
+        <input type="password" class="newinput" id="pass" placeholder="Enter password to save" />
+        <button class="eye" onclick="showPassword()">👁️</button>
+      </div>
+      <div class="save">
+        <button class="savebut" id="savebut" onclick="savePassword()">Save Password</button>
+      </div>
+    </div>
+
+    <div class="addpass">
+      <h2 class="title">Search:</h2>
+      <div class="search">
+        <input type="text" placeholder="Search your credentials" class="newinput1" id="sin" />
+        <button class="sbtn" onclick="verify()">Go</button>
+      </div>
+      <div class="saved" id="saved">
+        <p>No passwords saved yet.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

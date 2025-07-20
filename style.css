@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #272544;
+}
+
+.main {
+  align-items: center;
+  text-align: center;
+}
+
+.Header {
+  background-color: rgb(52, 56, 78);
+  color: white;
+  margin: 30px auto;
+  width: 40%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.passdiv {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.passinput {
+  width: 60%;
+  padding: 0.5%;
+  height: 25px;
+  border-radius: 7px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.savepassword {
+  text-align: left;
+}
+
+.passbutton {
+  background-color: rgb(75, 67, 103);
+  border: none;
+  border-radius: 2px;
+  margin-left: 30px;
+  color: white;
+  padding: 7px;
+  margin-top: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.addpass {
+  background-color: white;
+  margin: 2% auto;
+  width: 40%;
+  text-align: left;
+  border-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+.addinput {
+  padding-left: 15px;
+  padding-bottom: 7px;
+}
+
+.newinput,
+.newinput1 {
+  width: 90%;
+  padding: 0.5%;
+  height: 25px;
+  border-radius: 3px;
+  font-size: 15px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  margin-left: 10px;
+}
+
+.save {
+  text-align: center;
+  padding: 20px;
+}
+
+.savebut {
+  width: 70%;
+  height: 35px;
+  background-color: #41da41;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.eye {
+  border: none;
+  background: transparent;
+  font-size: large;
+  cursor: pointer;
+}
+
+.sbtn {
+  background-color: rgb(240, 240, 236);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: large;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.saved {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.list {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.Verify{
+    background-color: #362c55;
+    position: absolute;
+    margin-left: 8%;
+    height: 30%;
+    width: 25%;
+    border-radius: 10px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 500px rgb(11, 0, 0);
+    margin-top: -10%;
+
+}
+#vbtn{
+  background-color: #2849c0;
+  color: #f2f2f2;
+  border: none;
+  height: 20px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+#back{
+   background-color: green;
+   color: white;
+ border: none;
+  height: 20px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}

@@ -14,7 +14,8 @@ body {
   background-color: rgb(52, 56, 78);
   color: white;
   margin: 30px auto;
-  width: 40%;
+  width: 90%;
+  max-width: 500px;
   border-radius: 10px;
   padding-bottom: 10px;
 }
@@ -30,7 +31,7 @@ body {
 }
 
 .passinput {
-  width: 60%;
+  width: 90%;
   padding: 0.5%;
   height: 25px;
   border-radius: 7px;
@@ -57,7 +58,8 @@ body {
 .addpass {
   background-color: white;
   margin: 2% auto;
-  width: 40%;
+  width: 90%;
+  max-width: 500px;
   text-align: left;
   border-radius: 10px;
   padding-top: 4px;
@@ -87,8 +89,8 @@ body {
 }
 
 .savebut {
-  width: 70%;
-  height: 35px;
+  width: 80%;
+  height: 40px;
   background-color: #41da41;
   font-size: large;
   border: none;
@@ -120,6 +122,10 @@ body {
   padding: 10px;
   background-color: #f2f2f2;
   border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {
@@ -129,41 +135,66 @@ body {
   margin-bottom: 10px;
   border-radius: 6px;
 }
-.Verify{
-    background-color: #362c55;
-    position: absolute;
-    margin-left: 8%;
-    height: 30%;
-    width: 25%;
-    border-radius: 10px;
-    color: aliceblue;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0px 0px 500px rgb(11, 0, 0);
-    margin-top: -10%;
 
+.Verify {
+  background-color: #362c55;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  text-align: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
-#vbtn{
+
+#vbtn,
+#back {
   background-color: #2849c0;
   color: #f2f2f2;
   border: none;
-  height: 20px;
-  width: 200px;
+  height: 40px;
+  width: 100%;
   border-radius: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
-#back{
-   background-color: green;
-   color: white;
- border: none;
-  height: 20px;
-  width: 200px;
-  border-radius: 20px;
-  margin-top: 5px;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+
+#back {
+  background-color: green;
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 600px) {
+  .passdiv,
+  .passbutton {
+    margin-left: 10px;
+  }
+
+  .newinput,
+  .newinput1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .savebut {
+    width: 90%;
+  }
+
+  .Header,
+  .addpass,
+  .saved {
+    width: 95%;
+  }
+
+  .Verify {
+    width: 90%;
+    font-size: small;
+  }
 }
